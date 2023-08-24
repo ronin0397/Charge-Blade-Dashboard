@@ -1,0 +1,61 @@
+weapon,weapon_type,raw attack,affinity,element,status,element type,phial type,sharpness Handicraft +1,sharpness(element),slot,rampage slot,sharpness_upgrade,purple_sharpness ,white_sharpness,blue-sharpness
+magnamalo,Charge Blade,330,0,0,32,blast,impact,1.39,0,"3,2,0",2,0,20,20,50
+pyre rakna kadaki,Charge Blade,320,20,0,22,blast,impact,1.32,0,"2,0,0",2,1,0,70,80
+teostra,Charge Blade,330,0,0,55,blast,impact,1.32,0,"0,0,0",3,1,0,40,40
+crimsonglow valstrax,Charge Blade,340,0,60,0,dragon,element,1.32,1.125,"3,0,0",2,0,0,140,0
+dragon,Charge Blade,330,-5,55,0,dragon,element,1.32,1.125,"2,1,1",3,2,0,30,30
+primal malzeno,Charge Blade,320,0,51,0,dragon,element,1.39,1.2,"4,4,4",3,0,20,70,20
+chaotic gore magala,Charge Blade,340,15,48,0,dragon,impact,1.32,1.125,"0,0,0",2,3,0,70,70
+gaismagorm,Charge Blade,350,-25,17,0,dragon,impact,1.39,1.2,"0,0,0",3,0,80,50,50
+gore magala,Charge Blade,320,20,30,0,dragon,impact,1.39,1.2,"2,0,0",2,0,10,50,60
+shagaru magala,Charge Blade,300,35,42,0,dragon,impact,1.39,1.2,"0,0,0",1,0,20,60,40
+ibushi,Charge Blade,340,0,23,0,dragon,impact,1.39,1.2,"0,0,0",2,0,20,0,150
+malzeno,Charge Blade,330,0,27,0,dragon,impact,1.39,1.2,"4,0,0",1,0,40,40,30
+aelucanth,Charge Blade,330,15,24,0,dragon,impact,1.32,1.125,"2,0,0",2,0,0,40,50
+rakna kadaki,Charge Blade,300,30,66,0,fire,element,1.32,1.125,"2,1,1",2,1,0,80,20
+rathian,Charge Blade,330,0,54,0,fire,element,1.32,1.125,"3,1,0",3,2,0,50,50
+silver rathalos,Charge Blade,330,15,48,0,fire,element,1.32,1.125,"4,0,0",2,4,0,60,60
+rathalos,Charge Blade,320,0,60,0,fire,impact,1.39,1.2,"2,0,0",3,0,10,50,70
+violet mizutsune,Charge Blade,320,10,18,0,fire,impact,1.39,1.2,"2,2,2",1,0,60,30,10
+flaming espinas,Charge Blade,310,15,45,30,fire/poison,element,1.39,1.2,"3,1,1",3,0,20,40,20
+aurora somnacanth,Charge Blade,320,0,71,0,ice,element,1.32,1.125,"1,1,0",2,3,0,80,70
+barioth,Charge Blade,310,25,48,0,ice,element,1.32,1.125,"1,1,1",1,1,0,50,50
+velkhana,Charge Blade,340,0,28,0,ice,element,1.39,1.2,"4,0,0",3,0,20,30,50
+kushala daora,Charge Blade,320,10,62,0,ice,impact,1.32,1.125,"1,0,0",3,1,0,40,30
+goss harag,Charge Blade,350,-20,23,0,ice,impact,1.39,1.2,"3,0,0",2,0,10,50,70
+lunagaron,Charge Blade,330,0,32,0,ice,impact,1.39,1.2,"1,1,0",2,0,40,30,40
+diablos,Charge Blade,370,-30,0,0,none,impact,1.32,0,"3,0,0",2,4,0,30,30
+kamura,Charge Blade,330,0,0,0,none,impact,1.39,0,"4,2,0",2,0,30,70,70
+Bone,Charge Blade,350,0,0,0,none,impact,1.32,0,"0,0,0",1,0,0,30,70
+barroth,Charge Blade,360,-20,0,0,none,impact,1.32,0,"1,0,0",2,2,0,30,50
+royal order,Charge Blade,320,10,0,0,none,impact,1.39,0,"2,1,0",2,0,60,30,130
+seregios,Charge Blade,320,10,0,0,none,impact,1.39,0,"1,0,0",2,0,20,60,20
+nargacuga,Charge Blade,300,40,0,0,none,impact,1.39,0,"2,0,0",1,0,40,20,90
+tigrex,Charge Blade,350,-15,0,0,none,impact,1.39,0,"1,0,0",2,0,30,30,50
+great izuchi,Charge Blade,320,20,0,0,none,impact,1.32,0,"2,1,0",1,1,0,80,70
+smithy,Charge Blade,340,0,0,0,none,impact,1.32,0,"3,0,0",3,3,0,30,10
+ore,Charge Blade,340,0,0,0,none,impact,1.32,0,"2,2,0",3,0,0,50,50
+garangolm,Charge Blade,360,0,0,0,none,impact,1.2,0,"4,2,1",3,0,0,0,90
+felyne,Charge Blade,330,0,0,30,paralysis,impact,1.32,0,"1,1,1",1,0,0,20,90
+volvidon,Charge Blade,320,0,0,23,paralysis,impact,1.32,0,"1,0,0",2,3,0,70,30
+espinas,Charge Blade,320,20,0,23,poison,impact,1.39,0,"1,0,0",1,0,20,30,20
+lucent nargacuga,Charge Blade,340,0,0,18,poison,impact,1.39,0,"4,2,0",1,0,10,20,60
+poison,Charge Blade,350,-10,0,25,poison,impact,1.32,0,"1,1,0",2,0,0,30,40
+chameleos,Charge Blade,320,0,0,52,poison,impact,1.39,0,"3,0,0",2,0,20,40,50
+gold rathian,Charge Blade,330,10,0,46,poison,impact,1.32,0,"4,0,0",2,4,0,70,40
+basarios,Charge Blade,330,0,0,40,poison,impact,1.32,0,"3,0,0",2,1,0,50,40
+antique,Charge Blade,330,0,0,13,sleep,impact,1.39,0,"0,0,0",2,0,30,30,20
+somnacanth,Charge Blade,340,0,0,25,sleep,impact,1.32,0,"3,1,0",2,0,0,30,60
+thunder,Charge Blade,320,20,58,0,thunder,element,1.32,1.125,"3,0,0",3,3,0,30,70
+narwa,Charge Blade,310,0,75,0,thunder,element,1.32,1.125,"0,0,0",2,1,0,80,40
+zinogre,Charge Blade,330,0,52,0,thunder,element,1.39,1.2,"2,1,0",2,0,20,60,30
+astalos,Charge Blade,310,30,25,0,thunder,impact,1.39,1.2,"1,0,0",2,0,10,60,30
+tobi kadachi,Charge Blade,330,15,42,0,thunder,impact,1.32,1.125,"2,1,1",1,0,0,60,40
+furious rajang,Charge Blade,330,0,18,0,thunder,impact,1.39,1.2,"2,2,0",1,0,50,10,50
+rajang,Charge Blade,340,0,24,0,thunder,impact,1.32,1.125,"0,0,0",2,3,0,30,70
+jyuratodus,Charge Blade,350,-10,29,0,water,element,1.39,1.2,"1,1,1",2,0,10,70,50
+vaik,Charge Blade,320,0,57,0,water,element,1.32,1.125,"3,1,0",3,2,0,60,30
+mizutsune,Charge Blade,310,20,58,0,water,impact,1.39,1.2,"1,0,0",2,0,10,50,50
+amatsu,Charge Blade,360,-25,44,0,water,impact,1.39,1.2,"0,0,0",3,0,10,50,110
+tetranadon,Charge Blade,340,0,36,0,water,impact,1.32,1.125,"2,1,0",2,4,0,30,40
+shogun ceanataur,Charge Blade,320,0,33,0,water,impact,1.39,1.2,"4,0,0",2,0,30,30,70

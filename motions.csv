@@ -1,0 +1,68 @@
+Weapon,Move Name,damage type,raw,Element,Status,Part,Stun,Exhaust,Mount,Charge Gain
+Charge Blade,Weak Slash,cut,12,1,1,1,0,0,0,3
+Charge Blade,Shield Thrust (2nd Hit),cut,8,1,1,1,0,0,0,1
+Charge Blade,Shield Thrust (1st Hit),cut,12,1,1,1,0,0,0,1
+Charge Blade,Roundslash,cut,28,1,1,1,0,0,0,9
+Charge Blade,Return Stroke,cut,15,1,1,1,0,0,0,3
+Charge Blade,Morph Slash,cut,28,1,1,1,0,0,0,9
+Charge Blade,Jumping Slash,cut,22,1,1,1,0,0,1.5,3
+Charge Blade,Forward Slash,cut,20,1,1,1,0,0,0,3
+Charge Blade,Fade Slash,cut,25,1,1,1,0,0,0,3
+Charge Blade,Element Up Roundslash,cut,28,1,1,1,0,0,0,9
+Charge Blade,Counter Morph Slash,cut,35,1,1,1,0,0,0,9
+Charge Blade,Condensed Element Slash,cut,75,1,1,1,0,0,0,9
+Charge Blade,Charged Rising Slash,cut,13,1,1,1,0,0,0,3
+Charge Blade,Charged Double Slash (2nd Hit),cut,18,1,1,1,0,0,0,9
+Charge Blade,Charged Double Slash (1st Hit),cut,27,1,1,1,0,0,0,18
+Charge Blade,Firing Pin,none,5,0,0,1,10,3,0,0
+Charge Blade,Counter Morph Slash  (AED),none,9,0,0,1,35,7,0,0
+Charge Blade,Counter Morph (UED),none,25,0,0,1,40,10,0,0
+Charge Blade,UED,none,22,0,0,1,40,10,0,0
+Charge Blade,Guard Point,none,5,0,0,1,20,10,0,0
+Charge Blade,ED,none,4,0,0,1,30,5,0,0
+Charge Blade,Condensed Element Slash,none,4,0,0,1,30,5,0,0
+Charge Blade,Charged Sword,none,4,0,0,1,10,2,0,0
+Charge Blade,AED,none,7,0,0,1,35,7,0,0
+Charge Blade,Firing Pin,none,1,2,0,1,0,0,0,0
+Charge Blade,Counter Morph (UED),none,1,13.5,1,1,0,0,0,0
+Charge Blade,[Counter Morph] (AED),none,1,6.25,1,1,0,0,0,0
+Charge Blade,UED,none,1,11.25,1,1,0,0,0,0
+Charge Blade,Guard Point,none,1,2,1,1,0,0,0,0
+Charge Blade,ED,none,1,2,1,1,0,0,0,0
+Charge Blade,Condensed Element Slash,none,1,2,1,1,0,0,0,0
+Charge Blade,Charged Sword,none,1,1.5,1,1,0,0,0,0
+Charge Blade,AED,none,1,5,1,1,0,0,0,0
+Charge Blade,UED (2nd Hit)*,cut,90,1,1.5,1,0,0,0,0
+Charge Blade,UED (1st Hit),cut,15,1,1,1,0,0,0,0
+Charge Blade,Smash,cut,37,1,1,1,0,0,0,0
+Charge Blade,Rushing Element Discharge I,cut,21,1,1,1,0,0,0,0
+Charge Blade,Rising Slash,cut,35,1,1,1,0,0,0,0
+Charge Blade,Overhead Slash,cut,37,1,1,1,0,0,0,0
+Charge Blade,Morph Slash,cut,37,1,1,1,0,0,0,0
+Charge Blade,Jumping Slash,cut,46,1,1,1,0,0,1.3,0
+Charge Blade,Impact UED (3rd Hit),cut,72,0,0,1,0,0,0,0
+Charge Blade,Element UED (3rd Hit),cut,72,1,1,1,0,0,0,0
+Charge Blade,Element Discharge II (2nd Hit),cut,46,1,1,1,0,0,0,0
+Charge Blade,Element Discharge II (1st Hit),cut,30,1,1,1,0,0,0,0
+Charge Blade,Element Discharge I,cut,21,1,1,1,0,0,0,0
+Charge Blade,Dash Slam,cut,45,1,1,1,0,0,0,0
+Charge Blade,Counter Morph Slash (UED 3rd Hit),cut,90,0,0,1,0,0,0,0
+Charge Blade,Counter Morph Slash (UED 3rd Hit),cut,90,1,1,1,0,0,0,0
+Charge Blade,Counter Morph Slash,cut,44,1,1,1,0,0,0,0
+Charge Blade,Condensed Spinning Slash Ticks,cut,7,0.3,0.2,1,0,0,0,0
+Charge Blade,Condensed Spinning Slash,cut,30,1,1,1,0,0,0,0
+Charge Blade,AED,cut,90,1,1,1,0,0,0,0
+Charge Blade,Launching Chop (1st hit),cut,40,1,1,1,0,0,1,0
+Charge Blade,(Phials) Midair UED,cut,150,2.5,2,1,0,0,1,0
+Charge Blade,(Phials) Midair AED,cut,100,1,1,1,0,0,1,0
+Charge Blade,(No Phials) Midair UED,cut,100,1,1,1,0,0,1,0
+Charge Blade,(No Phials) Midair AED,cut,60,1,1,1,0,0,1,0
+Charge Blade,Slash 2,cut,60,1,1,1,1,0,1,0
+Charge Blade,Slash 1,cut,45,1,1,1,1,0,1,0
+Charge Blade,Phial Burst,cut,40,1,1,1,80,10,1,0
+Charge Blade,Phial Burst,cut,20,12,1,1,0,0,0,0
+Charge Blade,Guard (Impact Phial),none,5,0,0,1,20,10,0,0
+Charge Blade,Guard (Element Phial),none,1,2,1,1,0,0,0,0
+Charge Blade,Counter Peak Performance,none,0,0,0,0,0,0,0,0
+Charge Blade,Morphing Advance,none,0,0,0,0,0,0,0,0
+Charge Blade,Shield Boost,none,1.32,1.3,0,0,1.2,1.1,0,0
