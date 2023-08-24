@@ -991,7 +991,7 @@ UNION
 select
 W.name as weapon_name,
 W.type as type, 
-'saed' as mode,
+'SAED' as mode,
 H.name as monster_name,
 H.part,
 sum(ROUND((((W.raw_attack + 5) * 1.1) + 18 + 10 + 10 + 35) * Mo.raw/100 * 1.5, 0)) as BASE,
