@@ -26,7 +26,7 @@ Charge Blade,AED,none,7,0,0,1,35,7,0,0
 Charge Blade,Firing Pin,none,1,2,0,1,0,0,0,0
 Charge Blade,Counter Morph (UED),none,1,13.5,1,1,0,0,0,0
 Charge Blade,[Counter Morph] (AED),none,1,6.25,1,1,0,0,0,0
-Charge Blade,UED,none,1,11.25,1,1,0,0,0,0
+Charge Blade,SAED (EP),none,1,11.25,1,1,0,0,0,0
 Charge Blade,Guard Point,none,1,2,1,1,0,0,0,0
 Charge Blade,ED,none,1,2,1,1,0,0,0,0
 Charge Blade,Condensed Element Slash,none,1,2,1,1,0,0,0,0
@@ -49,7 +49,7 @@ Charge Blade,Dash Slam,cut,45,1,1,1,0,0,0,0
 Charge Blade,Counter Morph Slash (UED 3rd Hit),cut,90,0,0,1,0,0,0,0
 Charge Blade,Counter Morph Slash (UED 3rd Hit),cut,90,1,1,1,0,0,0,0
 Charge Blade,Counter Morph Slash,cut,44,1,1,1,0,0,0,0
-Charge Blade,Condensed Spinning Slash Ticks,cut,7,0.3,0.2,1,0,0,0,0
+Charge Blade,Condensed Spinning Slash Ticks,cut,70,1.5,0.2,1,0,0,0,0
 Charge Blade,Condensed Spinning Slash,cut,30,1,1,1,0,0,0,0
 Charge Blade,AED,cut,90,1,1,1,0,0,0,0
 Charge Blade,Launching Chop (1st hit),cut,40,1,1,1,0,0,1,0
