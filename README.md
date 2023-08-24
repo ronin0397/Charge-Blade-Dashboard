@@ -7,4 +7,4 @@ The project went as follows:
 3. SQLite produces the cb_damage sheet with the provided query.
 4. use the cb_damage sheet to create the dahsboard.
 
-Overall project took about 1 week, recycling assets I had available from other projects (ie the damage calculator). 
+Overall project took about 1 week with just the sql and tableau part of the project, recycling assets I had available from other projects (the damage calculator) to save time. 
