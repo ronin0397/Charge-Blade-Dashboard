@@ -377,7 +377,7 @@ W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
-where w.name = 'primordial malzeno' and 
+where w.name = 'primal malzeno' and 
 (Mo.move_name = 'Element Discharge II (1st Hit)' or
 Mo.move_name = 'Element Discharge II (2nd Hit)' or
 Mo.move_name = 'Condensed Spinning Slash Ticks')
