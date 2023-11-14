@@ -615,7 +615,8 @@ sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.fexp * 1.2 * 1.2) + 4 + 8 + 2 + 20)
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
-where w.name = 'rakna kadaki' and 
+where W.type = 'fire' and 
+W.sub_type = 'element' and
 (Mo.move_name = 'SAED (EP)')
 group by W.name, H.name, H.part
 UNION
@@ -636,7 +637,8 @@ sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.wexp * 1.2 * 1.2) + 4 + 8 + 2 + 20)
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
-where w.name = 'vaik' and 
+where W.type = 'water' and 
+W.sub_type = 'element' and
 (Mo.move_name = 'SAED (EP)')
 group by W.name, H.name, H.part
 UNION
@@ -657,7 +659,8 @@ sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.iexp * 1.2 * 1.2) + 4 + 8 + 2 + 20)
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
-where w.name = 'aurora somnacanth' and 
+where W.type = 'ice' and 
+W.sub_type = 'element' and
 (Mo.move_name = 'SAED (EP)')
 group by W.name, H.name, H.part
 UNION
@@ -678,7 +681,8 @@ sum(ROUND(((((W.element + 53)* 1.2 * H.texp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * Mo.
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
-where w.name = 'narwa' and 
+where W.type = 'thunder' and 
+W.sub_type = 'element' and
 (Mo.move_name = 'SAED (EP)')
 group by W.name, H.name, H.part
 UNION
@@ -699,28 +703,8 @@ sum(ROUND(((((W.element + 53)* 1.2 * 1.2 * H.dexp * 1.2 * 1.2) + 4 + 8 + 2 + 20)
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
-where w.name = 'crimsonglow valstrax' and 
-(Mo.move_name = 'SAED (EP)')
-group by W.name, H.name, H.part
-UNION
-select
-W.name as weapon_name,
-W.type as type,
-'SAED' as mode,
-H.name as monster_name,
-H.part,
-sum(ROUND(((((W.element + 9)* 1.2 ) + 4 + 5 + 4 + 20) * Mo.element * H.dragon_def/100), 0)) as BASE,
-sum(ROUND(((((W.element + 12)* 1.2 * H.dexp ) + 4 + 5 + 4 + 20) * Mo.element * H.dragon_def/100), 0)) as TU1,
-sum(ROUND(((((W.element + 15)* 1.2 * H.dexp) + 4 + 5 + 4 + 20) * Mo.element * H.dragon_def/100), 0)) as TU2,
-sum(ROUND(((((W.element + 20)* 1.2 * H.dexp ) + 4 + 5 + 4 + 20) * Mo.element * H.dragon_def/100), 0)) as TU3,
-sum(ROUND(((((W.element + 45)* 1.2 * H.dexp * 1.1) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.dragon_def/100), 0)) as TU4,
-sum(ROUND(((((W.element + 53)* 1.2 * 1.2 * H.dexp * 1.15) + 4 + 5 + 2 + 20 + 63) * Mo.element * H.dragon_def/100), 0)) as TU5,
-sum(ROUND(((((W.element + 53)* 1.2 * 1.2 * H.dexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 63) * Mo.element * H.dragon_def/100), 0)) as BU_LS,
-sum(ROUND(((((W.element + 53)* 1.2 * 1.2 * H.dexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * Mo.element * H.dragon_def/100), 0)) as BU_B
-from weapon as W
-inner join motion as Mo
-inner join HITZONES as H 
-where w.name = 'primal malzeno' and 
+where W.type = 'dragon' and 
+W.sub_type = 'element' and
 (Mo.move_name = 'SAED (EP)')
 group by W.name, H.name, H.part
 UNION
@@ -741,6 +725,6 @@ sum(ROUND((((W.raw_attack + 20 + 40) * 1.1 * 1.1) + 12 + 10 + 25 + 20 + 20)  * M
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
-where w.name = 'garangolm' and 
+where W.sub_type = 'impact' and
 (Mo.move_name = 'UED')
 group by W.name, H.name, H.part
