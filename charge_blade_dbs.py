@@ -1,3 +1,6 @@
+import sqlite3
+import csv
+
 def charge_blade_dbs():
     connection_obj_4 = sqlite3.connect('hitzones.db')
     cursor_obj_4 = connection_obj_4.cursor()
