@@ -617,7 +617,7 @@ inner join motion as Mo
 inner join HITZONES as H 
 where W.type = 'fire' and 
 W.sub_type = 'element' and
-(Mo.move_name = 'SAED (EP)')
+(Mo.move_name = 'UED (Element)')
 group by W.name, H.name, H.part
 UNION
 select
@@ -639,7 +639,7 @@ inner join motion as Mo
 inner join HITZONES as H 
 where W.type = 'water' and 
 W.sub_type = 'element' and
-(Mo.move_name = 'SAED (EP)')
+(Mo.move_name = 'UED (Element)')
 group by W.name, H.name, H.part
 UNION
 select
@@ -661,7 +661,7 @@ inner join motion as Mo
 inner join HITZONES as H 
 where W.type = 'ice' and 
 W.sub_type = 'element' and
-(Mo.move_name = 'SAED (EP)')
+(Mo.move_name = 'UED (Element)')
 group by W.name, H.name, H.part
 UNION
 select
@@ -683,7 +683,7 @@ inner join motion as Mo
 inner join HITZONES as H 
 where W.type = 'thunder' and 
 W.sub_type = 'element' and
-(Mo.move_name = 'SAED (EP)')
+(Mo.move_name = 'UED (Element)')
 group by W.name, H.name, H.part
 UNION
 select
@@ -705,7 +705,7 @@ inner join motion as Mo
 inner join HITZONES as H 
 where W.type = 'dragon' and 
 W.sub_type = 'element' and
-(Mo.move_name = 'SAED (EP)')
+(Mo.move_name = 'UED (Element)')
 group by W.name, H.name, H.part
 UNION
 select
@@ -726,5 +726,5 @@ from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
 where W.sub_type = 'impact' and
-(Mo.move_name = 'UED')
+(Mo.move_name = 'UED (Impact)')
 group by W.name, H.name, H.part
