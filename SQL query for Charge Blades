@@ -538,7 +538,7 @@ W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BU_B
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
-where W.type = 'none' and 
+where (W.type = 'none' or W.type = 'poison' or W.type = 'sleep' or W.type = 'paralysis' or W.type = 'blast' )and 
 W.sub_type = 'impact' and
 (Mo.move_name = 'Element Discharge II (1st Hit)' or
 Mo.move_name = 'Element Discharge II (2nd Hit)' or
