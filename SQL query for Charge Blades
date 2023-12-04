@@ -55,45 +55,40 @@ W.type as type,
 'css' as mode,
 H.name as monster_name,
 H.part,
-sum(ROUND((((W.raw_attack) * 1.05) + 18 + 5 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack) * 1.05) + 18 + 5 + 10 + 25)  * 
 (1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
-(((W.element + 9)*1.2 * 1.1 ) + 4 + 8 + 4) * 
+(((W.element + 9)*1.2 * 1.1 * 1.05) + 4 + 8 + 4) * 
 (2 * 2 + (W.esharpness * Mo.Element * 1.3)) * H.water_def/100, 0)) as BASE,
-sum(ROUND((((W.raw_attack) * 1.05) + 18 + 5 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack) * 1.05) + 18 + 5 + 10 + 25)  * 
 (1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
-(((W.element + 12)*1.2 * H.wexp ) + 4 + 8 + 4) * 
+(((W.element + 12)*1.2 * H.wexp * 1.05) + 4 + 8 + 4) * 
 (2 * 2 + (W.esharpness * Mo.Element * 1.3)) * H.water_def/100, 0)) as TU1,
-sum(ROUND((((W.raw_attack) * 1.05) + 18 + 5 + 10 + 30)  * 
+sum(ROUND((((W.raw_attack) * 1.05) + 18 + 5 + 10 + 25)  * 
 (1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
-(((W.element + 15)*1.2 * 1.1 * H.wexp) + 4 + 8 + 4) * 
+(((W.element + 15)*1.2 * 1.1 * H.wexp * 1.05) + 4 + 8 + 4) * 
 (2 * 2 + (W.esharpness * Mo.Element * 1.3)) * H.water_def/100, 0)) as TU2,
 sum(ROUND((((W.raw_attack + 5) * 1.1) + 18 + 10 + 10)  * 
 (1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
 (((W.element + 20)*1.2 * 1.1 * H.wexp ) + 4 + 8 + 4) * 
 (2 * 2 + (W.esharpness * Mo.Element * 1.3)) * H.water_def/100, 0)) as TU3,
-sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 10 + 30)  * 
+sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 15)  * 
 (1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
-(((W.element + 45)*1.2 * 1.1 * H.wexp ) + 4 + 8 + 2) * 
+(((W.element + 45)*1.2 * 1.1 * H.wexp * 1.15 * 1.2) + 4 + 8 + 2) * 
 (2 * 2 + (W.esharpness * Mo.Element * 1.3)) * H.water_def/100, 0)) as TU4,
-sum(ROUND((((W.raw_attack + 5 + 15) * 1.1) + 12 + 10 + 10 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack + 5 + 15) * 1.05) + 12 + 5 + 10 + 15)  * 
 (1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
-(((W.element + 53)* 1.2 * 1.1 * H.wexp ) + 4 + 8 + 2) * 
+(((W.element + 53)* 1.2 * 1.1 * H.wexp * 1.15 * 1.2) + 4 + 8 + 2) * 
 (2 * 2 + (W.esharpness * Mo.Element * 1.3)) * H.water_def/100, 0)) as TU5,
-sum(ROUND((((W.raw_attack + 5 + 25) * 1.1) + 12 + 10 + 10 + 40)  * 
-(1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
-W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
-(((W.element + 53)*1.2 * 1.1 * H.wexp ) + 4 + 8 + 2 +30) * 
-(2 * 2 + (W.esharpness * Mo.Element * 1.3)) * H.water_def/100, 0)) as BU_LS,
 sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  * 
 (1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
-(((W.element + 53)*1.2 * 1.1 * H.wexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
+(((W.element + 53)*1.2 * 1.1 * H.wexp * 1.2 * 1.15) + 4 + 8 + 2 + 20) * 
 (2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.water_def/100, 0)) as BU_B
 from weapon as W
 inner join motion as Mo
