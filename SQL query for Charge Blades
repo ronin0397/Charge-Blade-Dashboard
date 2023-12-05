@@ -514,25 +514,25 @@ W.type as type,
 'css' as mode,
 H.name as monster_name,
 H.part,
-sum(ROUND((((W.raw_attack + 5) * 1.1) + 18 + 10 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack + 5) * 1.1) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BASE,
-sum(ROUND((((W.raw_attack + 10) * 1.1) + 18 + 10 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack + 10) * 1.1) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU1,
-sum(ROUND((((W.raw_attack + 10) * 1.1) + 18 + 10 + 10 + 30)  * 
+sum(ROUND((((W.raw_attack + 10) * 1.1) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU2,
-sum(ROUND((((W.raw_attack + 15) * 1.1) + 18 + 10 + 10)  * 
+sum(ROUND((((W.raw_attack + 15) * 1.1) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU3,
-sum(ROUND((((W.raw_attack + 20 + 30) * 1.1) + 12 + 10 + 10 + 10 + 30)  * 
+sum(ROUND((((W.raw_attack + 20 + 30) * 1.1) + 12 + 10 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU4,
-sum(ROUND((((W.raw_attack + 20 + 30) * 1.1) + 12 + 10 + 10 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack + 20 + 30) * 1.1) + 12 + 10 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU5,
-sum(ROUND((((W.raw_attack + 20 + 40) * 1.1) + 12 + 10 + 10 + 40)  * 
+sum(ROUND((((W.raw_attack + 20 + 40) * 1.1) + 12 + 10 + 10 + + 25 + 20)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BU_B
 from weapon as W
@@ -544,31 +544,32 @@ W.sub_type = 'impact' and
 Mo.move_name = 'Element Discharge II (2nd Hit)' or
 Mo.move_name = 'Condensed Spinning Slash Ticks')
 group by W.name, H.name, H.part
+union
 select
 W.name as weapon_name,
 W.type as type, 
 'css' as mode,
 H.name as monster_name,
 H.part,
-sum(ROUND((((W.raw_attack + 5) * 1.1) + 18 + 10 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack + 5) * 1.1) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BASE,
-sum(ROUND((((W.raw_attack + 10) * 1.1) + 18 + 10 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack + 10) * 1.1) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU1,
-sum(ROUND((((W.raw_attack + 10) * 1.1 * 1.2) + 18 + 10 + 10 + 30)  * 
+sum(ROUND((((W.raw_attack + 10) * 1.1 * 1.2) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU2,
-sum(ROUND((((W.raw_attack + 15) * 1.1 * 1.2) + 18 + 10 + 10)  * 
+sum(ROUND((((W.raw_attack + 15) * 1.1 * 1.2) + 18 + 10 + 10 = 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU3,
-sum(ROUND((((W.raw_attack + 20 + 30) * 1.1 * 1.2) + 12 + 10 + 10 + 10 + 30)  * 
+sum(ROUND((((W.raw_attack + 20 + 30) * 1.1 * 1.2) + 12 + 10 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU4,
-sum(ROUND((((W.raw_attack + 20 + 30) * 1.1 * 1.2) + 12 + 10 + 10 + 10 + 35)  * 
+sum(ROUND((((W.raw_attack + 20 + 30) * 1.1 * 1.2) + 12 + 10 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU5,
-sum(ROUND((((W.raw_attack + 20 + 40) * 1.1 * 1.2) + 12 + 10 + 10 + 40)  * 
+sum(ROUND((((W.raw_attack + 20 + 40) * 1.1 * 1.2) + 12 + 10 + 10 + 25 + 20)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BU_B
 from weapon as W
@@ -580,7 +581,6 @@ W.sub_type = 'impact' and
 Mo.move_name = 'Element Discharge II (2nd Hit)' or
 Mo.move_name = 'Condensed Spinning Slash Ticks')
 group by W.name, H.name, H.part
-
 UNION
 select
 W.name as weapon_name,
