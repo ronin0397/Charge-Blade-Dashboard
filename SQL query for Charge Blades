@@ -38,7 +38,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
 (((W.element + 53)* 1.2 * 1.1 * H.fexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.fire_def/100, 0)) as BU_B
+(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.fire_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -89,7 +89,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
 (((W.element + 53)*1.2 * 1.1 * H.wexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.water_def/100, 0)) as BU_B
+(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.water_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -140,7 +140,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
 (((W.element + 53) *1.2 * 1.1 * H.iexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.ice_def/100, 0)) as BU_B
+(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.ice_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -191,7 +191,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
 (((W.element + 53) *1.2 * H.texp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.thunder_def/100, 0)) as BU_B
+(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.thunder_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -242,7 +242,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100 +
 (((W.element + 53)*1.2 * H.dexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.dragon_def/100, 0)) as BU_B
+(2 * 2 +(W.esharpness * Mo.element * 1.3)) * H.dragon_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -293,7 +293,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (((1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2) +
 (((W.element + 53)*1.2 * 1.1 * H.fexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-((W.esharpness * Mo.element * 1.3)) * H.fire_def/100, 0)) as BU_B
+((W.esharpness * Mo.element * 1.3)) * H.fire_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -344,7 +344,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (((1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2) +
 (((W.element + 53)*1.2 * 1.1 * H.wexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-((W.esharpness * Mo.element * 1.3)) * H.water_def/100, 0)) as BU_B
+((W.esharpness * Mo.element * 1.3)) * H.water_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -395,7 +395,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (((1 + 0.4 * (W.affinity + 40 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2) +
 (((W.element + 53)*1.2 * 1.1 * H.iexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-((W.esharpness * Mo.element * 1.3)) * H.ice_def/100, 0)) as BU_B
+((W.esharpness * Mo.element * 1.3)) * H.ice_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -446,7 +446,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05) + 12 + 5 + 10 + 20)  *
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2) +
 (((W.element + 53)*1.2 * H.texp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-((W.esharpness * Mo.element * 1.3)) * H.thunder_def/100, 0)) as BU_B
+((W.esharpness * Mo.element * 1.3)) * H.thunder_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -497,7 +497,7 @@ sum(ROUND((((W.raw_attack + 5 + 25) * 1.05 * 1.1) + 12 + 5 + 10 + 20)  *
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2) +
 (((W.element + 53)*1.2 * H.dexp * 1.2 * 1.2) + 4 + 8 + 2 + 20) * 
-((W.esharpness * Mo.element * 1.3)) * H.dragon_def/100, 0)) as BU_B
+((W.esharpness * Mo.element * 1.3)) * H.dragon_def/100, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -534,7 +534,7 @@ sum(ROUND((((W.raw_attack + 20 + 30) * 1.1) + 12 + 10 + 10 + 10 + 25)  *
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU5,
 sum(ROUND((((W.raw_attack + 20 + 40) * 1.1) + 12 + 10 + 10 + + 25 + 20)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
-W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BU_B
+W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -560,7 +560,7 @@ W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU1,
 sum(ROUND((((W.raw_attack + 10) * 1.1 * 1.2) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU2,
-sum(ROUND((((W.raw_attack + 15) * 1.1 * 1.2) + 18 + 10 + 10 = 25)  * 
+sum(ROUND((((W.raw_attack + 15) * 1.1 * 1.2) + 18 + 10 + 10 + 25)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU3,
 sum(ROUND((((W.raw_attack + 20 + 30) * 1.1 * 1.2) + 12 + 10 + 10 + 10 + 25)  * 
@@ -571,7 +571,7 @@ sum(ROUND((((W.raw_attack + 20 + 30) * 1.1 * 1.2) + 12 + 10 + 10 + 10 + 25)  *
 W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as TU5,
 sum(ROUND((((W.raw_attack + 20 + 40) * 1.1 * 1.2) + 12 + 10 + 10 + 25 + 20)  * 
 (((1 + 0.4 * (W.affinity + 20 + H.caff) /100) * 
-W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BU_B
+W.sharpness * Mo.raw/100 * 1.32 * H.cut/100) + 0.04 * 2), 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -594,7 +594,7 @@ sum(ROUND(((((W.element + 15)* 1.2 * 1.1 * H.fexp) + 4 + 5 + 4 + 20) * Mo.elemen
 sum(ROUND(((((W.element + 20)* 1.2 * 1.1 * H.fexp ) + 4 + 5 + 4 + 20) * Mo.element * H.fire_def/100), 0)) as TU3,
 sum(ROUND(((((W.element + 45)* 1.2 * 1.1 * H.fexp * 1.1) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.fire_def/100), 0)) as TU4,
 sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.fexp * 1.15) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.fire_def/100), 0)) as TU5,
-sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.fexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 50) * Mo.element * H.fire_def/100), 0)) as BU_B
+sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.fexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 50) * Mo.element * H.fire_def/100), 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -615,7 +615,7 @@ sum(ROUND(((((W.element + 15)* 1.2 * 1.1 * H.wexp) + 4 + 5 + 4 + 20) * Mo.elemen
 sum(ROUND(((((W.element + 20)* 1.2 * 1.1 * H.wexp ) + 4 + 5 + 4 + 20) * Mo.element * H.water_def/100), 0)) as TU3,
 sum(ROUND(((((W.element + 45)* 1.2 * 1.1 * H.wexp * 1.1) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.water_def/100), 0)) as TU4,
 sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.wexp * 1.15) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.water_def/100), 0)) as TU5,
-sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.wexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 50) * Mo.element * H.water_def/100), 0)) as BU_B
+sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.wexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 50) * Mo.element * H.water_def/100), 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -636,7 +636,7 @@ sum(ROUND(((((W.element + 15)* 1.2 * 1.1 * H.iexp) + 4 + 5 + 4 + 20) * Mo.elemen
 sum(ROUND(((((W.element + 20)* 1.2 * 1.1 * H.iexp ) + 4 + 5 + 4 + 20) * Mo.element * H.ice_def/100), 0)) as TU3,
 sum(ROUND(((((W.element + 45)* 1.2 * 1.1 * H.iexp * 1.1) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.ice_def/100), 0)) as TU4,
 sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.iexp * 1.15) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.ice_def/100), 0)) as TU5,
-sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.iexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 50) * Mo.element * H.ice_def/100), 0)) as BU_B
+sum(ROUND(((((W.element + 53)* 1.2 * 1.1 * H.iexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 50) * Mo.element * H.ice_def/100), 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -657,7 +657,7 @@ sum(ROUND(((((W.element + 15)* 1.2 * H.texp) + 4 + 5 + 4 + 20) * Mo.element * H.
 sum(ROUND(((((W.element + 20)* 1.2 * H.texp ) + 4 + 5 + 4 + 20) * Mo.element * H.thunder_def/100), 0)) as TU3,
 sum(ROUND(((((W.element + 45)* 1.2 * H.texp * 1.1) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.thunder_def/100), 0)) as TU4,
 sum(ROUND(((((W.element + 53)* 1.2 * H.texp * 1.15) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.thunder_def/100), 0)) as TU5,
-sum(ROUND(((((W.element + 53)* 1.2 * H.texp * 1.15) + 4 + 8 + 2 + 30 + 15 + 50) * Mo.element * H.thunder_def/100), 0)) as BU_B
+sum(ROUND(((((W.element + 53)* 1.2 * H.texp * 1.15) + 4 + 8 + 2 + 30 + 15 + 50) * Mo.element * H.thunder_def/100), 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -678,7 +678,7 @@ sum(ROUND(((((W.element + 15)* 1.2 * H.dexp) + 4 + 5 + 4 + 20) * Mo.element * H.
 sum(ROUND(((((W.element + 20)* 1.2 * H.dexp ) + 4 + 5 + 4 + 20) * Mo.element * H.dragon_def/100), 0)) as TU3,
 sum(ROUND(((((W.element + 45)* 1.2 * H.dexp * 1.1) + 4 + 5 + 2 + 20 + 50) * Mo.element * H.dragon_def/100), 0)) as TU4,
 sum(ROUND(((((W.element + 53)* 1.2 * 1.2 * H.dexp * 1.15) + 4 + 5 + 2 + 20 + 63) * Mo.element * H.dragon_def/100), 0)) as TU5,
-sum(ROUND(((((W.element + 53)* 1.2 * 1.2 * H.dexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 63) * Mo.element * H.dragon_def/100), 0)) as BU_B
+sum(ROUND(((((W.element + 53)* 1.2 * 1.2 * H.dexp * 1.15) + 4 + 8 + 2 + 30 + 15 + 63) * Mo.element * H.dragon_def/100), 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
@@ -699,7 +699,7 @@ sum(ROUND((((W.raw_attack + 10) * 1.1) + 18 + 10 + 10 + 30)  * Mo.raw/100 * 1.5,
 sum(ROUND((((W.raw_attack + 15) * 1.1) + 18 + 10 + 10)  * Mo.raw/100 * 1.5, 0)) as TU3,
 sum(ROUND((((W.raw_attack + 20 + 30) * 1.1) + 12 + 10 + 10 + 10 + 30)  * Mo.raw/100 * 1.5, 0)) as TU4,
 sum(ROUND((((W.raw_attack + 20 + 30) * 1.1) + 12 + 10 + 10 + 10 + 35)  * Mo.raw/100 * 1.5, 0)) as TU5,
-sum(ROUND((((W.raw_attack + 20 + 40) * 1.1) + 12 + 10 + 10 + 30 + 40)  * Mo.raw/100 * 1.5, 0)) as BU_B
+sum(ROUND((((W.raw_attack + 20 + 40) * 1.1) + 12 + 10 + 10 + 30 + 40)  * Mo.raw/100 * 1.5, 0)) as BUB
 from weapon as W
 inner join motion as Mo
 inner join HITZONES as H 
